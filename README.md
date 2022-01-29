@@ -25,7 +25,7 @@ exports['subtitles']:write({
 
 ## Examples
 
-**Here is a ![preview](https://i.imgur.com/pQUqmVf.mp4)**
+**Here is a [preview](https://i.imgur.com/pQUqmVf.mp4)**
 ```lua
 exports['subtitles']:write({
     text = { 'You look way too fuckin\' stupid to wash any money', 'Honestly', 'Jesus Christ' },
@@ -37,7 +37,7 @@ exports['subtitles']:write({
 })
 ```
 
-**Here is a ![preview](https://i.imgur.com/i8WkacM.mp4)**
+**Here is a [preview](https://i.imgur.com/i8WkacM.mp4)**
 ```lua
 exports['subtitles']:write({
     text = { 'If You Could Erase One Event From History,', 'Which One Would You Erase?' },
