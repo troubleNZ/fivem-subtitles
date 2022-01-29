@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'pdown';
+    src: url('fonts/pdown.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;    
+    overflow: hidden;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'pdown', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10%;
+    margin-bottom: 5vh;
+    padding-inline: 5vw;
+}
+
+#app > h1 {
+    height: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-size: 3vh;
+    color: var(--color);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+  
+span {
+    border-right: .05em solid;
+    animation: animation .5s steps(1) forwards;
+}
+
+@keyframes animation {
+    50% {
+        border-color: transparent;
+    }
+}
