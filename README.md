@@ -16,7 +16,7 @@ Config.DefaultColor = '#171717'
 exports['subtitles']:write({
     text = {}, -- Text table
     color = '#4E4F54', -- The color of the text (HEX, RGB, Keyword, etc..)
-    sound = 'example', -- Optional sound (Won't work if "Config.UseInteractSound" is **false**)
+    sound = 'example', -- Optional sound (Won't work if "Config.UseInteractSound" is false)
     cooldown = 1500, -- Cooldown between text
     speed = 500, -- Writing speed (ms)
     tts = false -- Text to speech
